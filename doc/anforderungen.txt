@@ -10,7 +10,9 @@ S	-> Stakeholder
 /*
 Ein Absatz -> Nur für die Lesbarkeit
 Zwei Absätze -> Sinnzusammenhang zu Ende. Ein tatsächlicher Absatz wird gemacht
-Drei Absätze -> Ein Unterpunkt (S, A, B, ...) ist zu Ende.
+Drei+ Absätze -> Ein Unterpunkt (S, A, B, ...) ist zu Ende.
+*/
+
 
 S:
 Administrator
