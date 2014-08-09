@@ -1,0 +1,53 @@
+		Anforderungen
+
+/*
+A 	-> Anforderung
+B 	-> Bedingung
+AS 	-> Ausgrenzung
+S	-> Stakeholder
+*/
+
+/*
+Zwei leere Zeilen bedeuten, dass ein A, B oder AS abgeschlossen ist
+
+S:
+Administrator
+
+
+S:
+Nutzer
+
+
+S:
+Moderator
+
+
+A:
+Es existiert ein Informationsnetzwerk das jeder Nutzer nutzen kann.
+Dieses Informationsnetzwerk hat den Zweck automatisch generierte Nachrichten wie Kriegserklärungen, Friedenserklärungen oder Statements zu diesen auszutauschen.
+
+
+A:
+Jeder Nutzer empfängt im Informationsnetzwerk nur eine Teilmenge aller Nachrichten. 
+Welche Nachrichten empfangen werden richtet sich nach der Position des Nutzers, der Spionagefähigkeit des "angreifenden" Nutzers und der Spionageabwehr des "verteidigenden" Nutzers.
+
+
+A:
+Ein Nutzer kann im Informationsnetzwerk einem anderen Nutzer den Krieg mit einer Kriegserklärung erklären.
+Dies passiert in dem der Nutzer das Kontextmenü eines anderen Nutzers aufruft und den Button "Den Krieg erklären" benutzt.
+Die Generierte Nachricht lautet wie folgt: "[Angreifer] erklärt [Verteidiger] den Krieg".
+
+
+A:
+Ein Nutzer kann im Informationsnetzwerk einem anderen Nutzer ein Friedensgesuch schicken.
+Wenn der andere Nutzer dem Gesuch zustimmt, wird eine Friedenserklärung generiert
+Die generierte Nachricht lautet wie folgt: "[Nutzer1] und [Nutzer2] haben Frieden geschlossen".
+
+
+A:
+Wenn ein Nutzer eine Nachricht abfängt, dann kann er ein Statement dazu abgeben, welches jeder sieht der die Nachricht ebenfalls abgefangen hat.
+Statements sind Meinungserklärungen wie "Gefällt mir", "Gefällt mir nicht", "Witzig", "Nicht witzig", ...
+
+
+AS:
+Im Informationsnetzwerk können keine Freitexte veröffentlicht werden.
